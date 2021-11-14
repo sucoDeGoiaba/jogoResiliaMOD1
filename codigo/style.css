@@ -39,8 +39,6 @@ main {
     width: 800px;
     height: 600px;
     margin: 50px;
-    /* background-color: aqua; */
-    /* background-image: url("../assets/texturas/brickBackground.png"); */
     display: flex;    
     flex-direction: column;
     justify-content: space-evenly;
@@ -48,12 +46,26 @@ main {
     border-radius: 10px;
 }
 
-.containerTextos {
+/* .containerTextos {
     width: inherit;
     height: inherit;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgba(0, 0, 0, 35%);
+} */
+
+.displayGame {
+    margin: 0px;
+}
+
+.backgroundInfeite {
+    width: inherit;
+    height: inherit;
+    margin: 20px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
     background-color: rgba(0, 0, 0, 35%);
 }
 
@@ -62,6 +74,17 @@ main {
     color: #ffffff;
     font-family: Dogica;
     font-size: 18px;
+}
+
+.containerBotao {
+    display: flex;
+    width: inherit;
+    flex-direction: row-reverse;
+}
+
+.containerBotao > img {
+    width: 100px;
+    margin: 50px;
 }
 
 .containerBanner {
