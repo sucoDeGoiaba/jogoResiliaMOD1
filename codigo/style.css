@@ -82,10 +82,23 @@ main {
     flex-direction: row-reverse;
 }
 
-.containerBotao > img {
+.containerBotao /*> form*/ > button {
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+    background-color: saddlebrown;
+    background-image: url("../assets/objetos/base/botao.png");
+    background-size: cover;
+    border: none;
+
+    cursor: pointer;
+
+}
+
+/* .containerBotao > img {
     width: 100px;
     margin: 50px;
-}
+} */
 
 .containerBanner {
     display: flex;
