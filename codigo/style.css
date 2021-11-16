@@ -69,6 +69,13 @@ main {
     background-color: rgba(0, 0, 0, 35%);
 }
 
+.containerTextos > h2 {
+    margin: 70px;
+    color: #ffffff;
+    font-family: Dogica;
+    font-size: 24px;
+}
+
 .containerTextos > p {
     margin: 70px;
     color: #ffffff;
