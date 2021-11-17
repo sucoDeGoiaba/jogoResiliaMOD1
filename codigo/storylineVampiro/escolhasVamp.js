@@ -26,11 +26,11 @@ function gameOver(){
 }
 
 function indoProCap3(){
-    window.location.assign("./Cap3.html")
+    window.location.assign("./Cap3.html");
 }
 
 function fim(){
-    window.location.assign("../paginaFim.html")
+    window.location.assign("../paginaFim.html");
 }
 
 function deVoltaAoComeco(){

@@ -96,6 +96,17 @@ main {
     align-self: flex-end;
 }
 
+.botaoReplay {
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+    background-color: saddlebrown;
+    background-image: url("../assets/objetos/base/botaoReplay.png");
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+}
+
 .containerBanner {
     display: flex;
     justify-content: center;
