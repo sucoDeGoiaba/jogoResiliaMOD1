@@ -14,12 +14,16 @@ function fim(){
 }
 
 function escolhasLob2(){
-    var resposta = prompt("\n\t1 - \n\t2 - \n\n");
+    var resposta = prompt("Um forte aroma de sangue paira pelo ar, seus instintos te levam a:\n\t1 - Floresta.\n\t2 - Vila\n\n");
     if(resposta === "1") {
-        window.location.assign("./.html");
+        window.location.assign("./Cap2Escolha1Lob.html");
     } else if(resposta === "2") {
-        window.location.assign("./.html");
+        window.location.assign("./Cap2Escolha2Lob.html");
     } else {
         alert("Resposta invália.");
     }
+}
+
+function gameOver(){
+    window.location.assign("../gameOver.html");
 }
